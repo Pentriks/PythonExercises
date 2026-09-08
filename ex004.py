@@ -1,0 +1,10 @@
+random = input('Type something: ')
+
+print('The primitive type of this value is: {}'.format(type(random)))
+print('Have only space? {}'.format(random.isspace()))
+print('Is a number? {}'.format(random.isnumeric()))
+print('Is alphabetical? {}'.format(random.isalpha()))
+print('Is a alphanumeric? {}'.format(random.isalnum()))
+print('Is uppercase? {}'.format(random.isupper()))
+print('Is lowercase? {}'.format(random.islower()))
+print('It that capitalized? {}'.format(random.istitle()))
